@@ -71,7 +71,7 @@ The user creates  a new transaction which spends one or more of the outputs of
 the stuck transaction. This child transaction attaches a large fee - enough to
 increase the combined fee-rate for itself and the stuck transaction above the
 required fee-rate for inclusion in a block. Note that this is only possible
-when the user owns some of the outputs
+when the user owns some of the outputs.
 
 When selecting transactions for inclusion in a block, miners will consider
 ‘packages’ of transactions, and will look at the total fee-rate across the
